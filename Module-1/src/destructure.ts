@@ -16,6 +16,6 @@ console.log(id, myFirstName);
 // Array Destructuring
 
 const friends = ["Mizan", "Rifat", "Mahfuz"];
-const [A, B, C] = friends;
+const [A, , C] = friends;
 
-console.log(A, B);
+console.log(A, C);
